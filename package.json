@@ -71,8 +71,12 @@
     "@opentelemetry/api": "^1.6.0"
   },
   "dependencies": {
-    "@opentelemetry/instrumentation": "^0.52.1",
+    "@opentelemetry/instrumentation": "^0.53.0",
     "@opentelemetry/semantic-conventions": "^1.17.0"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "volta": {
+    "node": "22.5.1",
+    "yarn": "3.8.3"
+  }
 }
